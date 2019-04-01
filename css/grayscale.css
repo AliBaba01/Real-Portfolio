@@ -1,0 +1,205 @@
+html {height: 100%;
+font-size: 16px}
+body {
+    margin: 0;
+    font-family: nunito,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: nunito,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #10161A;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 21px;
+}
+
+.md-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.bgimg {
+    background:
+    linear-gradient(rgba(41, 41, 41, 0.808),
+    rgba(41, 41, 41, 0.808)),
+    url(../img/grayscale/bg-masthead.jpg);
+    
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+height: 100%;
+}
+
+.h1 {
+    font-size: 6.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Varela Round';
+    background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 80px;;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #64a19d;
+}
+.btn {
+    -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+}
+
+.about-section {
+    padding-top: 10rem;
+    background: -webkit-gradient(linear,left top,left bottom,from(#161616),color-stop(75%,rgba(22,22,22,.9)),to(rgba(22,22,22,.8)));
+    background: linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%);
+}
+.bgc1 {
+    background-color: black;
+}
+
+.green-stripe {
+    max-width: 91,5px;
+    height: 4px;
+    color: #64a19d;
+}
+
+.signup-section {
+    padding: 10rem 0;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(22,22,22,.1)),color-stop(75%,rgba(22,22,22,.5)),to(#161616)),url(../img/bg-signup.jpg);
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/grayscale/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.bg-black {
+    background-color:black;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255,255,255,.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255,255,255,.3);
+}
+.ml-2, .mx-2 {
+    margin-left: .5rem!important;
+}
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}
+
+.pb {
+    padding-bottom: 80px;
+}
+.pt {
+    padding-top: 80px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%
+}
+
+@media only screen and (max-width: 576px) {
+    .h1 {
+        font-size: 40px;
+        padding-bottom: 20px;
+        line-height: 2rem;
+    }
+    .h2 {
+        font-size: 15px;
+    }
+    .about-section {
+        padding-top: 4rem;
+    }
+    .md-padding {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .pl-5 {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .pr-5 {
+        padding-right: 0 !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px)  {
+    .h1 {
+        font-size: 60px;
+        padding-bottom: 20px;
+        line-height: 3rem;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .about-section {
+        padding-top: 5rem;
+    }
+    .md-padding {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .pl-5 {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .pr-5 {
+        padding-right: 0 !important;
+        text-align: center !important;
+    }
+}
