@@ -165,10 +165,11 @@ a:focus {
     box-sizing: border-box;
 }
 
-.fa {
+.fa-main {
     font-size: 2rem;
     padding: 2rem;
-    color: #6195FF
+    color: #6195FF;
+    z-index: 999;
 }
 
 img {
@@ -264,6 +265,7 @@ span {
     font-size: 12px;
     padding: 0;
     margin-right: 7px;
+    color: #6195FF
 }
 
 .px14 {
@@ -325,8 +327,13 @@ span {
     text-align: center;
     border-radius: 3px;
     background-color: #6195FF;
-    color: #FFF;
-}
+    color:#FFF;
+  }
+
+  ul {
+      padding-inline-start: 0;
+      
+  }
 
 .footer-copyright p {
     text-align: center;
